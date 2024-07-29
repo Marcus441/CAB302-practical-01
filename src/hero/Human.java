@@ -11,7 +11,7 @@ public class Human extends SuperHero {
     }
 
     @Override
-    public boolean hasPower(String power) {
+    public boolean hasPower(SuperPower queriedPower) {
         return false;
     }
 }
